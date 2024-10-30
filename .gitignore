@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+yarn-error.log
+
+# Yarn cache and files
+.yarn/
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
+
+# Build output
+dist/
+out/
+build/
+*.js.map          # Source maps for JavaScript
+*.d.ts             # TypeScript declaration files (if using TypeScript)
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store          # macOS desktop services store files
+.AppleDouble       # Resource fork for Apple file systems
+.LSOverride        # Override file for launch services
+
+# WebStorm settings
+.idea/             # WebStorm project settings folder
+.idea/*
+*.iml              # IntelliJ IDEA project files
+
+# Miscellaneous
+coverage/          # Code coverage output (e.g., from Jest)
+
+# Temporary files
+tmp/
+temp/
