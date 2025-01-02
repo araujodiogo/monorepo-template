@@ -39,3 +39,5 @@ coverage/          # Code coverage output (e.g., from Jest)
 # Temporary files
 tmp/
 temp/
+
+.turbo
