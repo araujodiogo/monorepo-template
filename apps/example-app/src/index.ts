@@ -1,4 +1,4 @@
-import { exampleFunc } from '@dotdev/example-package/src/exampleFunc';
+import { exampleFunc } from '@dotdev/example-package/exampleFunc';
 
 function someFunc(): string {
   const ok = exampleFunc(1, 2);
