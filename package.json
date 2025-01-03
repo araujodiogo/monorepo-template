@@ -10,6 +10,7 @@
   "packageManager": "yarn@4.5.1",
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@types/node": "^22.10.5",
     "@typescript-eslint/eslint-plugin": "^8.12.2",
     "@typescript-eslint/parser": "^8.12.2",
     "eslint": "^9.13.0",
@@ -23,13 +24,27 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "globals": "^15.11.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
     "prettier": "^3.3.3",
     "turbo": "^2.3.3",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
   },
   "scripts": {
     "build": "npx turbo run build",
     "dev": "npx turbo run dev",
-    "lint": "npx turbo run lint"
+    "lint": "npx turbo run lint",
+    "prepare": "npx husky"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint",
+      "prettier --check"
+    ],
+    "*.js": [
+      "eslint",
+      "prettier --check"
+    ]
   }
 }
