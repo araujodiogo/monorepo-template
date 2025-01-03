@@ -53,10 +53,18 @@ export default [
       'arrow-parens': 'warn',
       'object-shorthand': 'warn',
       'no-var': 'warn',
+      'import/no-unresolved': 'error',
     },
     settings: {
       react: {
         version: 'detect',
+      },
+      'import/resolver': {
+        node: {
+          extensions: ['.js', '.jsx', '.ts', '.tsx'],
+          moduleDirectory: ['node_modules', './services'],
+        },
+        typescript: {},
       },
     },
   },
