@@ -32,9 +32,9 @@
     "vitest": "^2.1.8"
   },
   "scripts": {
+    "boot": "yarn install --immutable",
     "build": "npx turbo run build",
     "dev": "npx turbo run dev",
-    "lint": "npx turbo run lint",
     "prepare": "npx husky"
   },
   "lint-staged": {
