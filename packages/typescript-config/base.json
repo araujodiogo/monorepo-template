@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2022",
     "module": "NodeNext",
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": false,
-    "moduleResolution": "bundler",
+    "moduleResolution": "nodeNext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
