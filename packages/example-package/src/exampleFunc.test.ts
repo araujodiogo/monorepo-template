@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { exampleFunc } from './exampleFunc';
+import { exampleFunc } from './exampleFunc.js';
 
 describe('exampleFunc', () => {
   it('should return the sum of two numbers', () => {
