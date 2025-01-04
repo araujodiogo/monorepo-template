@@ -34,7 +34,8 @@
   "scripts": {
     "build": "npx turbo run build",
     "dev": "npx turbo run dev",
-    "prepare": "npx husky"
+    "prepare": "npx husky",
+    "test": "npx vitest run"
   },
   "lint-staged": {
     "*.ts": [
