@@ -9,6 +9,11 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "baseUrl": "../.."
+    "baseUrl": "../..",
+    "jsx": "preserve",
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "incremental": true
   }
 }
